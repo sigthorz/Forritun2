@@ -88,12 +88,6 @@ while True:
 
     innihald_simaskra = lesa_simaskra("simaskra.csv") #Öll gögn í simaskra.csv skránni
     if choice == 2: # Ef valkostur er 2
-        """
-        listinn = ["petur","3","3"]
-        skrifaIskra(listinn,"simaskra.csv")
-        print("---->",eyda(innihald_simaskra,"Bjarni"))
-        print(lesa_simaskra("simaskra.csv"))
-        """
         while True:
             val = int(input("veldu 1 skrifa í skrá,2 breyta símanúmeri, eða 3 eyða aðila:"))
 
