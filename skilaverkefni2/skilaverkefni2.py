@@ -24,12 +24,6 @@ def lesa_simaskra(filename):
     with open(filename,'r') as f:
         reader = csv.reader(f)
         data = list(reader)
-    '''
-    info_split = info.split("\n")
-    for x in info_split:
-        splitter = x.split(";")
-        simaskra.append(splitter)
-    '''
     return data
 
 def skrifaIskra(listi,nafntxt):
